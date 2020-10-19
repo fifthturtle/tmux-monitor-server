@@ -3,8 +3,6 @@
 // Runs a hapi server
 // Primary purpose is to serve up the Vue app, and return Tmux Server, Session, Window, Pane and Pane Data info.
 
-"use strict";
-
 const Hapi = require("hapi");
 const Path = require('path');
 const io = require('./lib/sockets');
